@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Forms Assignment</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="group">
+            <form action="#">
+                    <label for="name">Name:</label>
+                    <input class="bigBoxInput"  type="text" id="name" name="name" required/>
+                    <label for="email">Email:</label>
+                    <input class="bigBoxInput" type="email" id="email" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$" required/>
+                    <label for="message">Your Message:</label>
+                    <textarea class="bigBoxInput" id="message" name="message"></textarea>
+                    <input type="submit" value="submit" id="submit">
+            </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
